@@ -1,6 +1,7 @@
 {
   "name": "claude-code-untangle",
   "owner": { "name": "xPribluda" },
+  "description": "untangle: split one long Claude Code chat into one chat per topic.",
   "plugins": [
     {
       "name": "untangle",

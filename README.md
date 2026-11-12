@@ -21,16 +21,18 @@ Works in Claude Code. New chats open automatically in the Claude desktop app (Co
 In a Claude Code terminal session:
 
 ```
-/plugin install untangle --marketplace xPribluda/claude-code-untangle
+/plugin marketplace add xPribluda/claude-code-untangle
+/plugin install untangle@claude-code-untangle
 ```
-
-Answer `y` to add the marketplace, then pick a scope (user is the usual choice).
 
 From a shell:
 
 ```bash
-claude plugin install untangle --marketplace xPribluda/claude-code-untangle
+claude plugin marketplace add xPribluda/claude-code-untangle
+claude plugin install untangle@claude-code-untangle
 ```
+
+Both install for your user by default. Add `--scope project` to the install command to install for one project only.
 
 In the Claude desktop app: click + next to the prompt box, then Plugins, Add marketplace with `xPribluda/claude-code-untangle`, then Add plugin.
 
