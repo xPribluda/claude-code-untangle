@@ -1,0 +1,9 @@
+{
+  "name": "untangle",
+  "version": "0.1.0",
+  "description": "Split one long Claude Code chat into separate chats, one per topic, after you approve the list.",
+  "author": { "name": "xPribluda", "url": "https://github.com/xPribluda" },
+  "repository": "https://github.com/xPribluda/claude-code-untangle",
+  "license": "MIT",
+  "keywords": ["chat", "topics", "sessions", "productivity"]
+}

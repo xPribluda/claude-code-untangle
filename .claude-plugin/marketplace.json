@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-untangle",
+  "owner": { "name": "xPribluda" },
+  "plugins": [
+    {
+      "name": "untangle",
+      "source": "./",
+      "description": "Split one long Claude Code chat into separate chats, one per topic."
+    }
+  ]
+}

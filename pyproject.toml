@@ -1,0 +1,11 @@
+[project]
+name = "untangle"
+version = "0.1.0"
+description = "Split one long AI chat into separate chats, one per topic."
+requires-python = ">=3.9"
+
+[project.scripts]
+untangle = "untangle.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["skills/untangle"]
